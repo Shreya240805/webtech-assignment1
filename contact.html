@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Contact Me 📨</title> 
+</head> 
+<body> 
+    <header> 
+        <div class="container"> 
+            <h1>Contact Me!</h1> 
+            <nav> 
+                <ul> 
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="resume.html">Resume</a></li> 
+                    <li><a href="contact.html">Contact</a></li> 
+                </ul> 
+            </nav> 
+        </div> 
+    </header> 
+    <main class="contact-main"> 
+        <!-- Fun contact form -->
+        <form id="contact-form"> 
+            <label for="name">Name:</label><br/> 
+            <input type="text" id="name" name="name" required placeholder="Your Name"><br/> 
+
+            <label for="email">Email:</label><br/> 
+            <input type="email" id="email" name="email" required placeholder="Your Email"><br/> 
+
+            <label for="subject">Subject:</label><br/> 
+            <input type="text" id="subject" name="subject" required placeholder="Subject"><br/> 
+
+            <!-- Message field with a fun twist -->
+            <label for="message">Message:</label><br/> 
+            <textarea id="message" name="message" required placeholder='What’s on your mind? 😊'></textarea><br/> 
+
+            <!-- Quirky button with animation -->
+            <button type="submit" class='quirky-button'>Send Message 💌</button> 
+        </form> 
+    </main> 
+
+    <!-- Footer with a quirky message -->
+    <footer>&copy; 2024 @Shreya - Let's Connect! 😊</footer>
+
+    <!-- JavaScript for form validation and fun animations -->
+    <script src="script.js"></script>  
+</body>  
+</html>  
